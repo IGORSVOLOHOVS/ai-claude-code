@@ -11,6 +11,36 @@ Source paths are relative to the repository root. Short names stand for:
 `.claude/hooks/git/`; `propose.yaml`, `test.yaml`, `release-gate.yaml`,
 `release.yaml`, `sweep.yaml` in `.gitea/workflows/`.
 
+<!-- jira-sync:start -->
+Jira: KAN-117
+
+## Tasks
+
+This list is one ticket in Jira project KAN, [KAN-117](https://igorsvolohovs.atlassian.net/browse/KAN-117). Each line is a checkbox there: tick it in Jira and the sync ticks it here; add a checkbox there and it is appended here. Done items are the features described in section 3; open items are what the project declares but the code does not do yet.
+
+- [x] Home page (section 3.1) <!-- spec-home-page -->
+- [x] Privacy policy (section 3.2) <!-- spec-privacy-policy -->
+- [x] recipe.ps1 (section 3.3) <!-- spec-recipe-ps1 -->
+- [x] Claude Code hooks (section 3.4) <!-- spec-claude-code-hooks -->
+- [x] Git hooks (section 3.5) <!-- spec-git-hooks -->
+- [x] Workflow `propose` (pull request into `test`) (section 3.6) <!-- spec-workflow-propose-pull-request-into-test -->
+- [x] Workflow `test` (push to `test`, daily, manual) (section 3.7) <!-- spec-workflow-test-push-to-test-daily-manual -->
+- [x] Workflow `release-gate` (pull request into `release`) (section 3.8) <!-- spec-workflow-release-gate-pull-request-into-release -->
+- [x] Workflow `release` (push to `release`) (section 3.9) <!-- spec-workflow-release-push-to-release -->
+- [x] Workflow `sweep` (weekly) (section 3.10) <!-- spec-workflow-sweep-weekly -->
+- [x] Repository hygiene (section 3.11) <!-- spec-repository-hygiene -->
+- [ ] The assistant's access to Google Tasks and Calendar, local token storage, no server, Limited Use (declared, not implemented) <!-- spec-the-assistant-s-access-to-google-tasks-and-calenda -->
+- [ ] GitHub Pages serves the pages (declared, not implemented) <!-- spec-github-pages-serves-the-pages -->
+- [ ] AI usage report `.claude/logs/report-<date>.md` (declared, not implemented) <!-- spec-ai-usage-report-claude-logs-report-date-md -->
+- [ ] Wiki generation (declared, not implemented) <!-- spec-wiki-generation -->
+- [ ] Manual test runner at `http://127.0.0.1:8765/` (declared, not implemented) <!-- spec-manual-test-runner-at-http-127-0-0-1-8765 -->
+- [ ] Installer build and install/uninstall proof (declared, not implemented) <!-- spec-installer-build-and-install-uninstall-proof -->
+- [ ] `--force-with-lease` allowed "on your own branch" (declared, not implemented) <!-- spec-force-with-lease-allowed-on-your-own-branch -->
+- [ ] Branch protection stages 1 and 2 (declared, not implemented) <!-- spec-branch-protection-stages-1-and-2 -->
+- [ ] "Pin ruff and pytest" (declared, not implemented) <!-- spec-pin-ruff-and-pytest -->
+
+<!-- jira-sync:end -->
+
 ## 1. Purpose and scope
 
 The repository provides the public home page and privacy policy of the Google
